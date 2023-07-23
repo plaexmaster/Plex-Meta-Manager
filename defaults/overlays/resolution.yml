@@ -188,9 +188,6 @@ templates:
       hdr:
         conditions:
           - alt: hdr
-            value: true
-      hdr:
-        conditions:
           - alt1: hdr
             value: true
       plus:
