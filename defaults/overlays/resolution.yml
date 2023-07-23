@@ -359,6 +359,9 @@ overlays:
     variables: {key: ulysses, weight: 6, search: Ulysses, type: edition_dovetail, allowed_libraries: movie}
     template: [name: edition, name: standard]
 
+  4K-DV-HDR:
+    variables: {key: 4k, alt: dv, alt: hdr, weight: 170, type: resolution}
+    template: [name: resolution, name: standard]
   4K-Plus:
     variables: {key: 4k, alt: plus, weight: 160, type: resolution}
     template: [name: resolution, name: standard]
