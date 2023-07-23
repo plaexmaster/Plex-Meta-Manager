@@ -189,6 +189,10 @@ templates:
         conditions:
           - alt: hdr
             value: true
+      hdr:
+        conditions:
+          - alt1: hdr
+            value: true
       plus:
         conditions:
           - alt: plus
@@ -197,7 +201,7 @@ templates:
       - all
       - use_<<key>>
       - use_<<key>>_<<alt>>
-      - use_<<key>>_<<alt>>_<<alt>>
+      - use_<<key>>_<<alt>>_<<alt1>>
       - use_<<alt>>
       - use_resolution
       - allowed_libraries
@@ -205,7 +209,7 @@ templates:
       - <<use_<<key>>>>
       - <<use_<<alt>>>>
       - <<use_<<key>>_<<alt>>>>
-      - <<use_<<key>>_<<alt>>_<<alt>>>>
+      - <<use_<<key>>_<<alt>>_<<alt1>>>>
       - <<allowed_libraries>>
       - <<use_resolution>>
     ignore_blank_results: true
