@@ -197,6 +197,7 @@ templates:
       - all
       - use_<<key>>
       - use_<<key>>_<<alt>>
+      - use_<<key>>_<<alt>>_<<alt>>
       - use_<<alt>>
       - use_resolution
       - allowed_libraries
@@ -204,6 +205,7 @@ templates:
       - <<use_<<key>>>>
       - <<use_<<alt>>>>
       - <<use_<<key>>_<<alt>>>>
+      - <<use_<<key>>_<<alt>>_<<alt>>>>
       - <<allowed_libraries>>
       - <<use_resolution>>
     ignore_blank_results: true
